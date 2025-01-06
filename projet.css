@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .map-container {
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .africa-map {
+    width: 300px;
+    height: auto;
+    fill: #74c69d; /* Couleur de la carte */
+    stroke: #2d6a4f; /* Contour */
+    stroke-width: 2;
+    transition: fill 0.3s ease;
+  }
+  
+  .africa-map:hover {
+    fill: #40916c; /* Couleur au survol */
+    cursor: pointer;
+  }
+  
